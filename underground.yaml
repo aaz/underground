@@ -1,0 +1,61 @@
+-
+  :line_name: Northern
+  :stations:
+    - Morden
+    - South Wimbledon
+    - Colliers Wood
+    - Tooting Broadway
+    - Tooting Bec
+    - Balham
+    - Clapham South
+    - Clapham Common
+    - Clapham North
+    - Stockwell
+    - Oval
+    - Kennington
+    - Waterloo
+    - Embankment
+    - Charing Cross
+    - Leicester Square
+    - Tottenham Court Road
+    - Goodge Street
+    - Warren Street
+    - Euston
+    - Mornington Crescent
+    - Camden Town
+    - Chalk Farm
+    - Belsize Park
+    - Hampstead
+    - Golders Green
+    - Brent Cross
+    - Hendon Central
+    - Colindale
+    - Burnt Oak
+    - Edgware
+-
+  :line_name: Northern
+  :link_from: Kennington
+  :stations:
+    - Elephant & Castle
+    - Borough
+    - London Bridge
+    - Bank
+    - Moorgate
+    - Old Street
+    - Angel
+    - King's Cross St. Pancras
+  :link_to: Euston
+-
+  :line_name: Northern
+  :link_from: Camden Town
+  :stations:
+    - Kentish Town
+    - Tufnell Park
+    - Archway
+    - Highgate
+    - East Finchley
+    - Finchley Central
+    - West Finchley
+    - Woodside Park
+    - Totteridge & Whetstone
+    - High Barnet
