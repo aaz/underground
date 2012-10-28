@@ -34,8 +34,8 @@
     - Edgware
 -
   :line_name: Northern
-  :link_from: Kennington
   :stations:
+    - Kennington
     - Elephant & Castle
     - Borough
     - London Bridge
@@ -44,11 +44,11 @@
     - Old Street
     - Angel
     - King's Cross St. Pancras
-  :link_to: Euston
+    - Euston
 -
   :line_name: Northern
-  :link_from: Camden Town
   :stations:
+    - Camden Town
     - Kentish Town
     - Tufnell Park
     - Archway
@@ -59,3 +59,146 @@
     - Woodside Park
     - Totteridge & Whetstone
     - High Barnet
+-
+  :line_name: Northern
+  :stations:
+    - Finchley Central
+    - Mill Hill East
+-
+  :line_name: Bakerloo
+  :stations:
+    - Elephant & Castle
+    - Lambeth North
+    - Waterloo
+    - Embankment
+    - Charing Cross
+    - Piccadilly Circus
+    - Oxford Circus
+    - Regent's Park
+    - Baker Street
+    - Marylebone
+    - Edgware Road
+    - Paddington
+    - Warwick Avenue
+    - Maida Vale
+    - Kilburn Park
+    - Queen's Park
+    - Kensal Green
+    - Willesden Junction
+    - Harlesden
+    - Stonebridge Park
+    - Wembley Central
+    - North Wembley
+    - South Kenton
+    - Kenton
+    - Harrow & Wealdstone
+-
+  :line_name: Victoria
+  :stations:
+    - Brixton
+    - Stockwell
+    - Vauxhall
+    - Pimlico
+    - Victoria
+    - Green Park
+    - Oxford Circus
+    - Warren Street
+    - Euston
+    - King's Cross St. Pancras
+    - Highbury & Islington
+    - Finsbury Park
+    - Seven Sisters
+    - Tottenham Hale
+    - Blackhorse Road
+    - Walthamstow Central
+-
+  :line_name: Jubilee
+  :stations:
+    - Stanmore
+    - Canons Park
+    - Queensbury
+    - Kingsbury
+    - Wembley Park
+    - Neasdon
+    - Dollis Hill
+    - Willesden Green
+    - Kilburn
+    - West Hampstead
+    - Finchley Road
+    - Swiss Cottage
+    - St. John's Wood
+    - Baker Street
+    - Bond Street
+    - Green Park
+    - Westminster
+    - Waterloo
+    - Southwark
+    - London Bridge
+    - Bermondsey
+    - Canada Water
+    - Canary Wharf
+    - North Greenwich
+    - Canning Town
+    - West Ham
+    - Stratford
+-
+  :line_name: Central
+  :stations:
+    - West Ruislip
+    - Ruislip Gardens
+    - South Ruislip
+    - Northolt
+    - Greenford
+    - Perivale
+    - Hanger Lane
+    - North Acton
+    - East Acton
+    - White City
+    - Shepherd's Bush
+    - Holland Park
+    - Notting Hill Gate
+    - Queensway
+    - Lancaster Gate
+    - Marble Arch
+    - Bond Street
+    - Oxford Circus
+    - Tottenham Court Road
+    - Holborn
+    - Chancery Lane
+    - St Paul's
+    - Bank
+    - Liverpool Street
+    - Bethnal Green
+    - Mile End
+    - Stratford
+    - Leyton
+    - Leytonstone
+    - Snaresbrook
+    - South Woodford
+    - Woodford
+    - Buckhurst Hill
+    - Loughton
+    - Debden
+    - Theydon Bois
+    - Epping
+-
+  :line_name: Central
+  :stations:
+    - Ealing Broadway
+    - West Acton
+    - North Acton
+-
+  :line_name: Central
+  :stations:
+    - Leytonstone
+    - Wanstead
+    - Redbridge
+    - Gants Hill
+    - Newbury Park
+    - Barkingside
+    - Fairlop
+    - Hainault
+    - Grange Hill
+    - Chigwell
+    - Roding Valley
+    - Woodford

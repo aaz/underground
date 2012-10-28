@@ -15,22 +15,20 @@ yaml.each do |record|
   last_node, this_node = nil
   line_name = record[:line_name]
   stations = record[:stations]
-  link_from = record[:link_from]
-  link_to = record[:link_to]
 
   Neo4j::Transaction.run do |txn|
-    unless (link_from == nil)
-      last_node = Neo4j::Node.load(station_node_ids[link_from])
-    end
     stations.each do |station|
-      this_node = Neo4j::Node.new :name => station
-      station_node_ids[station] = this_node.getId
-      p station_node_ids[station]
+      id = station_node_ids[station]
+      if (id == nil) then
+        this_node = Neo4j::Node.new :name => station
+        station_node_ids[station] = this_node.getId
+      else
+        this_node = Neo4j::Node.load(id)
+      end
 
       connect_stations(last_node, this_node, line_name)
 
       last_node = this_node # Last step in the iteration
     end
-    # txn.failure
   end
 end
