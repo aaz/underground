@@ -1,4 +1,5 @@
 require 'yaml'
+Fixnum = Integer unless defined?(Fixnum)
 require 'neo4j'
 
 yaml = YAML.load_file "underground.yaml"
